@@ -86,7 +86,6 @@ let subject: Ref<string> = ref('')
 
 const handleSubject = () => {
     teacher.value.subjects.push(subject.value)
-
     subject.value = ''
 }
 
